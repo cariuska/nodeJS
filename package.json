@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cariuska/nodeJS/issues"
   },
-  "homepage": "https://github.com/cariuska/nodeJS#readme"
+  "homepage": "https://github.com/cariuska/nodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
