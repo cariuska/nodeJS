@@ -1,14 +1,7 @@
-FROM node:14
+FROM node:14-slim
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
+ADD . /app
 
-COPY package*.json ./
-
-RUN npm install
-
-COPY . .
-
-EXPOSE 8080
-
-CMD [ "node", "server.js" ]
+CMD node server.js
